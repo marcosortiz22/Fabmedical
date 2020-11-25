@@ -14,7 +14,7 @@ on:
 env: 
   containerRegistry: "acrfabmedicalstk.azurecr.io"
   containerRegistryName: "acrfabmedicalstk"
-  dockerfilePath: ./content-web-marcos
+  dockerfilePath: ./content-web
   imageRepository: content-web
   resourceGroupName: "fabmedical"
   tag: "${{ github.run_id  }}"
