@@ -15,7 +15,7 @@ env:
   containerRegistry: "acrfabmedicalstk.azurecr.io"
   containerRegistryName: "acrfabmedicalstk"
   dockerfilePath: ./content-web
-  imageRepository: content-web
+  imageRepository: content-web-marcos
   resourceGroupName: "fabmedical"
   tag: "${{ github.run_id  }}"
 jobs: 
